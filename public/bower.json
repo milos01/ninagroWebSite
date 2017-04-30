@@ -1,0 +1,20 @@
+{
+  "name": "Ninagro",
+  "authors": [
+    "milos01 <milosa942@gmail.com>"
+  ],
+  "description": "Ninagro - kartonska ambalaza",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "photoswipe": "^4.1.2"
+  }
+}
