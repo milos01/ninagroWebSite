@@ -826,19 +826,19 @@
 		//Full Page
 		if ($(".fullpage-site").length>0 || $(".fullpage-site-with-menu").length>0) {
 			$('.fullpage-site').fullpage({
-				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+				anchors: ['dobrodošli', 'o_nama', 'galerija', 'kontakt'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Intro', 'About', 'Portfolio', 'Clients', 'Contact Us'],
+				navigationTooltips: ['Dobrodošli', 'O nama', 'Galerija', 'Kontakt'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600
 			});
 			$('.fullpage-site-with-menu').fullpage({
-				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+				anchors: ['dobrodošli', 'o_nama', 'galerija', 'kontakt'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Intro', 'About', 'Gallery', 'Contact Us'],
+				navigationTooltips: ['Dobrodošli', 'O nama', 'Galerija', 'Kontakt'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600,
