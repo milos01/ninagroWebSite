@@ -826,19 +826,19 @@
 		//Full Page
 		if ($(".fullpage-site").length>0 || $(".fullpage-site-with-menu").length>0) {
 			$('.fullpage-site').fullpage({
-				anchors: ['dobrodošli', 'o_nama', 'galerija', 'kontakt'],
+				anchors: ['dobrodošli', 'o_nama', 'proizvodi','galerija', 'kontakt'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Dobrodošli', 'O nama', 'Galerija', 'Kontakt'],
+				navigationTooltips: ['Dobrodošli', 'O nama', 'Proizvodi', 'Galerija', 'Kontakt'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600
 			});
 			$('.fullpage-site-with-menu').fullpage({
-				anchors: ['dobrodošli', 'o_nama', 'galerija', 'kontakt'],
+				anchors: ['dobrodošli', 'o_nama', 'proizvodi','galerija', 'kontakt'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Dobrodošli', 'O nama', 'Galerija', 'Kontakt'],
+				navigationTooltips: ['Dobrodošli', 'O nama', 'Proizvodi','Galerija', 'Kontakt'],
 				fixedElements: '.header-container, .subfooter',
 				responsiveWidth: 992,
 				responsiveHeight: 600,
