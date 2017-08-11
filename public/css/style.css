@@ -1,4 +1,4 @@
-/**
+*
  * Theme Name:The Project - Responsive Website Template
  *
  * Author:HtmlCoder
@@ -749,11 +749,11 @@ tbody {
 }
 
 .dark-translucent-bg:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 .dark-translucent-bg.hovered:hover:after {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .dark-translucent-bg,
@@ -774,6 +774,7 @@ tbody {
 .dark-translucent-bg a:not(.btn):hover {
   text-decoration: none;
   color: #ffffff;
+  background: red;
 }
 
 .two-col-translucent-bg {
@@ -3034,6 +3035,10 @@ fieldset[disabled] .btn-default {
   background-color: #fafafa;
   border-color: #f1f1f1;
   border-bottom-color: transparent;
+}
+
+.hoverLinks:hover{
+  border-bottom: 1px solid white;
 }
 
 .nav-tabs.style-2 + .tab-content > .tab-pane {
@@ -8178,7 +8183,7 @@ h6.media-heading {
 }
 
 .slideshow .dark-translucent-bg {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .slideshow .light-translucent-bg {
@@ -9042,6 +9047,21 @@ h6.media-heading {
   display: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*Custom css*/
+.productElements{
+  border:1px solid white;
+  background: white;
+  color:black;
+  box-shadow: 0px 0px 40px #000;
+}
+.productElements:hover{
+  border:1px solid #f8f8f8;
+}
+
+.blackout{
+  background: red;
+}
 
 /*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map 
