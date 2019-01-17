@@ -9144,6 +9144,31 @@ a:focus, a:active {
     text-decoration: none;
 }
 
+.carousel-image {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner > .item > img {
+    height: 100vh;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.hoverLinks:hover, .hoverLinks .active{
+    border:none;
+    background-color: #616161!important;
+}
+
 @media (max-width: 767px) {
     .transparent-header .main-navigation .navbar.navbar-default {
         background-color: rgba(62, 62, 62, 1);
@@ -9193,6 +9218,8 @@ a:focus, a:active {
         border-color: transparent;
     }
 }
+
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map 
